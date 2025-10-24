@@ -1,5 +1,17 @@
 @use "variables" as *;
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: inherit;
+}
 .app-container {
   //   background-image: url("https://4kwallpapers.com/images/wallpapers/gradient-background-2880x1800-11027.jpg");
   background-size: cover;
