@@ -1,0 +1,23 @@
+@for $i from 1 through 100 {
+  .fs-#{$i} {
+    font-size: #{$i}px;
+  }
+}
+
+@for $i from 100 through 700 {
+  .fw-#{$i} {
+    font-weight: #{$i};
+  }
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
