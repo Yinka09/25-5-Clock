@@ -20,7 +20,8 @@ body {
   background-color: black;
 
   padding: 50px 25px;
-  height: 100dvh;
+  height: 100vh;
+  //   height: 100dvh;
   display: flex;
   justify-content: center;
   gap: 8%;
@@ -52,7 +53,8 @@ body {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   //   height: 85vh;
-  height: calc(100dvh - 100px);
+  height: calc(100vh - 100px);
+  //   height: calc(100dvh - 100px);
   position: relative;
   border: 2px solid #f77e2d;
   //   border: 2px solid #ee5c12;
@@ -62,7 +64,8 @@ body {
     // height: 90vh;
     // height: 85dvh;
     width: 100%;
-    height: calc(100dvh - 90px);
+    height: calc(100vh - 90px);
+    // height: calc(100dvh - 90px);
   }
 
   .sub-container {
@@ -187,7 +190,8 @@ body {
     align-items: center;
     justify-content: center;
     // gap: 5px;
-    height: calc(100dvh - 430px);
+    height: calc(100vh - 430px);
+    // height: calc(100dvh - 430px);
     gap: 30px;
 
     @media (max-width: 376px) {
@@ -380,14 +384,16 @@ button {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   //   height: 85vh;
-  height: calc(100dvh - 100px);
+  height: calc(100vh - 100px);
+  //   height: calc(100dvh - 100px);
   position: relative;
   border: 2px solid #f77e2d;
   padding: 10px 12px;
 
   @media (max-width: 1025px) {
     width: 100%;
-    height: calc(100dvh - 90px);
+    height: calc(100vh - 90px);
+    // height: calc(100dvh - 90px);
   }
 
   .short-left-line {
@@ -478,7 +484,8 @@ button {
     background-color: #ca6735;
     // background-color: black;
     // background-color: #c05428;
-    height: 24dvh;
+    height: 24vh;
+    // height: 24dvh;
     border-radius: 32px;
 
     .inner-header {
@@ -730,14 +737,16 @@ button {
   }
 
   .third-container {
-    height: calc(100dvh - 100px - 24dvh - 20px);
+    height: calc(100vh - 100px - 24vh - 20px);
+    // height: calc(100dvh - 100px - 24dvh - 20px);
     // background-color: black;
     padding: 25px 0 10px 0;
     @media (max-width: 1025px) {
       // height: 90vh;
       // height: 85dvh;
       padding: 25px 0 10px 0;
-      height: calc(100dvh - 90px - 24dvh - 20px);
+      height: calc(100vh - 90px - 24vh - 20px);
+      //   height: calc(100dvh - 90px - 24dvh - 20px);
     }
 
     .inner-third-container {
