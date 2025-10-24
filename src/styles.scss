@@ -1,16 +1,16 @@
 @use "variables" as *;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-}
+// html,
+// body {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   height: 100%;
+//   width: 100%;
+// }
 
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 .app-container {
   //   background-image: url("https://4kwallpapers.com/images/wallpapers/gradient-background-2880x1800-11027.jpg");
@@ -33,7 +33,7 @@ body {
   @media (max-width: 1025px) {
     padding: 50px 20px;
     flex-direction: column;
-    min-height: 100vh;
+
     height: 100%;
     gap: 40px;
   }
