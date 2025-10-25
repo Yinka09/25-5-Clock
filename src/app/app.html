@@ -16,7 +16,11 @@
           <i class="fa-solid fa-battery-full"></i
         ></span>
       </div>
-      <h1>25 + 5 Clock</h1>
+      <h1>
+        {{ showMinutes(this.state().sessionLength) }} +
+        {{ showMinutes(this.state().breakLength) }} Clock
+      </h1>
+      <!-- <h1>25 + 5 Clock</h1> -->
       <div class="break-session">
         <div>
           <p id="break-label">Break Length</p>
