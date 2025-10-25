@@ -197,9 +197,13 @@
     justify-content: center;
     // gap: 5px;
 
-    height: calc(100dvh - 390px);
+    height: calc(100dvh - 342px);
     // height: calc(100dvh - 430px);
     gap: 30px;
+
+    @media (max-width: 1025px) {
+      height: calc(100dvh - 390px);
+    }
 
     @media (max-width: 376px) {
       gap: 20px;
@@ -709,11 +713,16 @@ button {
         }
 
         .flash-dot-container {
-          width: 30px;
-          height: 30px;
+          width: 26px;
+          height: 26px;
           display: flex;
           justify-content: center;
           align-items: center;
+
+          @media (max-width: 900px) {
+            width: 24px;
+            height: 24px;
+          }
         }
 
         .flash-dot {
