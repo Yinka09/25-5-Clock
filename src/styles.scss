@@ -40,7 +40,7 @@
 }
 
 .main-container {
-  width: 390px;
+  width: 386px;
   text-align: center;
 
   background-image: url("/images/wallpaper.jpg");
@@ -449,9 +449,6 @@ button {
       rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   }
 
-  .sub-container {
-  }
-
   .top-stripe-left,
   .bottom-stripe-left {
     left: 0;
@@ -666,8 +663,8 @@ button {
         justify-content: space-around;
 
         .flash-light {
-          width: 30px;
-          height: 30px;
+          width: 26px;
+          height: 26px;
           border-radius: 50%;
           background-color: #d3d3d3;
           border: 1px solid #3d3d3d;
@@ -676,8 +673,8 @@ button {
           //     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
           //     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
           @media (max-width: 900px) {
-            width: 28px;
-            height: 28px;
+            width: 24px;
+            height: 24px;
           }
           .flash-light-beam {
             border-radius: 50%;
@@ -724,13 +721,13 @@ button {
           }
         }
         .flash-dark {
-          width: 28px;
-          height: 28px;
+          width: 24px;
+          height: 24px;
           border-radius: 50%;
           background-color: black;
           @media (max-width: 900px) {
-            width: 27px;
-            height: 27px;
+            width: 23px;
+            height: 23px;
           }
         }
       }
